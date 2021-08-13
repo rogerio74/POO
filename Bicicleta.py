@@ -15,8 +15,6 @@ class Bicicleta:
 
         return self.veloc_atual
 
-
-
     def frear(self):
         self.veloc_atual-=1
         print("velocidade atual:", self.veloc_atual)
